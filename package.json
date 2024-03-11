@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "devops",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm i -g vercel"
+  },
+  "keywords": [
+    "devops"
+  ],
+  "author": "Mike",
+  "license": "ISC"
+}

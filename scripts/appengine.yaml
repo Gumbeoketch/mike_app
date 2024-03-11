@@ -1,0 +1,11 @@
+# appengine.yaml
+
+resources:
+- name: my-appengine-app
+  type: gcp-types/appengine-v1:apps
+  properties:
+    locationId: YOUR_LOCATION_ID # variables
+    projectId: YOUR_PROJECT_ID # variables
+
+
+# gcloud deployment-manager deployments create my-appengine-deployment --config appengine.yaml

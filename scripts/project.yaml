@@ -1,0 +1,14 @@
+# project.yaml
+
+resources:
+- name: my-project
+  type: gcp-types/cloudresourcemanager-v1:projects
+  properties:
+    projectId: YOUR_PROJECT_ID
+    name: My Project
+    parent:
+      type: organization
+      id: YOUR_ORGANIZATION_ID
+
+
+# gcloud deployment-manager deployments create my-project-deployment --config project.yaml
